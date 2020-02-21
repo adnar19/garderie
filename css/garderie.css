@@ -1,0 +1,55 @@
+body {padding-top:70px;}
+.leftBar {
+  position: fixed;
+  left:0;top:56px;bottom:0;
+  width:200px;
+  border-right:1px solid rgb(0,0,0,0.15);
+  background:#e1f5fe; top:65px ;
+}
+.leftBar .inner {padding:15px 5px}
+.leftBar ul{list-style: none;margin:0;padding:0;width:100%}
+.leftBar ul  li{display: block;line-height: 100px;text-align: center;font-size: 22px;border-top:1px solid rgb(0,0,0,0.15); }
+
+.mainBar{ padding-left:200px ; }
+.mainBar .tab2{ display: none;pointer-events: none}
+.mainBar .tab2.afficher{ display: block;pointer-events: auto}
+.addForm {width:50vw;margin: 20px auto}
+
+.sidebar {position:fixed;top:54px;left:0;bottom:0;width:240px;border-right:1px solid rgba(0,0,0,0.15);z-index: 10;
+padding:20px 10px;background:#e1f5fe; }
+
+.table tr.active td {background: #b3e5fc !important ;}
+.bg {
+  background:#b0bec5;
+  background-size:cover;
+  width: 100%;
+  height: 100vh;
+  background-size: 100%;
+}
+
+.form-container{
+  border:0px solid #fff;
+  padding: 100px 60px;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+  color: white;
+}
+#loginform.incorrect {
+  background:red;
+}
+
+.present {
+  color: black;
+  margin-left: 10vh;
+  margin-top: 10vh;
+}
+
+.montant {color:#ffff00;font-size: 60px;text-align: center}
+
+#valider {
+  position:fixed;left:0;top:66px;right:0px;bottom:0;background: #111;color:#fff;z-index:9999
+}
+#valider.m{
+  display: none;pointer-events: none;
+}
